@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 import stimulusReminders from "@/prompts/stimulus_reminders.json";
 
 const TURN_LIMIT = 5;
-const POST_URL = "https://lse.eu.qualtrics.com/jfe/form/SV_5yZCFOZ9h8l3fL0";
+const POST_URL = "https://lse.eu.qualtrics.com/jfe/form/SV_3lMw2kYp3kPa5Rc";
 
 export default function ChatPage() {
   const params = useSearchParams();
