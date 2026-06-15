@@ -27,7 +27,8 @@ export default function ChatPage() {
         {
           role: "assistant",
           content:
-            "Hi, how are you? I'm John. I'm trying to better understand the arguments people use when deciding whether to buy DELIGHT, a yogurt product."
+            content:
+            "Olá, tudo bem? Eu sou João. Estou tentando entender melhor os argumentos que as pessoas usam quando decidem se compram DELIGHT, um iogurte."
         }
       ]);
     }
@@ -57,7 +58,7 @@ export default function ChatPage() {
       if (!resp.ok) {
         const updatedErr = [
           ...next,
-          { role: "assistant", content: "Error generating response. Please try again." }
+          { role: "assistant", content: "Erro ao gerar resposta. Por favor, tente novamente." }
         ];
         setMessages(updatedErr);
         setLoading(false);
@@ -75,7 +76,7 @@ export default function ChatPage() {
     } catch {
       const updatedErr = [
         ...next,
-        { role: "assistant", content: "Network error. Please try again." }
+        { role: "assistant", content: "Erro de rede. Por favor, tente novamente." }
       ];
       setMessages(updatedErr);
       setLoading(false);
@@ -121,7 +122,7 @@ export default function ChatPage() {
 
   return (
     <main style={{ maxWidth: 800, margin: "40px auto", fontFamily: "sans-serif" }}>
-      <h2>Conversation</h2>
+      <h2>Conversa</h2>
 
       {(!pid || !agent || !stimulus) && (
         <div
@@ -134,7 +135,7 @@ export default function ChatPage() {
             fontSize: 14
           }}
         >
-          Warning: missing URL parameters. pid="{pid || "(empty)"}", agent="{agent || "(empty)"}", stimulus="{stimulus || "(empty)"}"
+          Aviso: faltam parâmetros na URL. pid="{pid || "(vazio)"}", agent="{agent || "(vazio)"}", stimulus="{stimulus || "(vazio)"}"
         </div>
       )}
 
@@ -188,7 +189,7 @@ export default function ChatPage() {
               borderRadius: 8
             }}
           >
-            <b>{m.role === "user" ? "You" : "John"}:</b> {m.content}
+            <b>{m.role === "user" ? "Você" : "João"}:</b> {m.content}
           </div>
         ))}
       </div>
@@ -199,7 +200,7 @@ export default function ChatPage() {
             value={text}
             onChange={e => setText(e.target.value)}
             rows={3}
-            placeholder="Write your response here..."
+            placeholder="Escreva sua resposta aqui..."
             onKeyDown={e => {
               if (e.key === "Enter" && !e.shiftKey) {
                 e.preventDefault();
@@ -231,11 +232,11 @@ export default function ChatPage() {
               opacity: loading ? 0.7 : 1
             }}
           >
-            {loading ? "Sending..." : "Send"}
+            {loading ? "Enviando..." : "Enviar"}
           </button>
         </div>
       ) : (
-        <p style={{ marginTop: 20 }}>Conversation completed. Redirecting</p>
+        <p style={{ marginTop: 20 }}>Conversa concluída. Redirecionando</p>
       )}
     </main>
   );

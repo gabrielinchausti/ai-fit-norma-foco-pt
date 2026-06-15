@@ -1,28 +1,29 @@
 {
   "Promoção": {
-    "task_title": "Your task:",
-    "task": "Convince the assistant that choosing DELIGHT is a good decision.",
-    "reminder_title": "Reminder:",
-    "reminder": "DELIGHT: Discover the pleasure of feeling better every day.",
+    "task_title": "Sua tarefa:",
+    "task": "Convencer o assistente de que escolher DELIGHT é uma boa decisão.",
+    "reminder_title": "Lembrete:",
+    "reminder": "DELIGHT: Descubra o prazer de se sentir melhor todos os dias.",
     "bullets": [
-      "Improve your digestion: with probiotics that support digestive balance.",
-      "Boost your energy: with balanced carbohydrates that help sustain your energy throughout the day.",
-      "Support your weight balance: a lower-fat option that fits into a healthy lifestyle."
+      "Melhore sua digestão: com probióticos que ajudam a manter o equilíbrio digestivo.",
+      "Aumente sua energia: com carboidratos equilibrados que ajudam a sustentar sua energia ao longo do dia.",
+      "Cuide do seu equilíbrio de peso: uma opção com menos gordura que se encaixa em um estilo de vida saudável."
     ],
-    "reasoning": "You may draw on different types of reasoning, such as what people commonly do, what others recommend, or what you personally consider important.",
-    "length_rule": "Keep your answers short (2–3 sentences)."
+    "reasoning": "Você pode utilizar diferentes tipos de argumentos, como aquilo que as pessoas costumam fazer, o que outras pessoas recomendam ou o que você considera pessoalmente importante.",
+    "length_rule": "Mantenha suas respostas curtas (2–3 frases)."
   },
+
   "Prevenção": {
-    "task_title": "Your task:",
-    "task": "Convince the assistant that choosing DELIGHT is a good decision.",
-    "reminder_title": "Reminder:",
-    "reminder": "DELIGHT: Take care of yourself without giving up great taste.",
+    "task_title": "Sua tarefa:",
+    "task": "Convencer o assistente de que escolher DELIGHT é uma boa decisão.",
+    "reminder_title": "Lembrete:",
+    "reminder": "DELIGHT: Cuide de você sem abrir mão do sabor.",
     "bullets": [
-      "Avoid digestive discomfort: with probiotics that help prevent digestive uneasiness. ",
-      "Avoid energy drops: with balanced carbohydrates that help prevent fatigue and fluctuations.",
-      "Helps you avoid weight gain: a lower-fat option that helps prevent excess."
+      "Proteja seu conforto digestivo: com probióticos que ajudam a prevenir desconfortos digestivos.",
+      "Mantenha sua energia ao longo do dia: com carboidratos equilibrados que ajudam a prevenir fadiga e oscilações.",
+      "Ajude a prevenir o ganho de peso: uma opção com menos gordura que contribui para uma gestão saudável do peso."
     ],
-    "reasoning": "You may draw on different types of reasoning, such as what people commonly do, what others recommend, or what you personally consider important.",
-    "length_rule": "Keep your answers short (2–3 sentences)."
+    "reasoning": "Você pode utilizar diferentes tipos de argumentos, como aquilo que as pessoas costumam fazer, o que outras pessoas recomendam ou o que você considera pessoalmente importante.",
+    "length_rule": "Mantenha suas respostas curtas (2–3 frases)."
   }
 }
