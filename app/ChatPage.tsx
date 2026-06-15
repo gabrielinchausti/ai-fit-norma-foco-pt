@@ -27,7 +27,6 @@ export default function ChatPage() {
         {
           role: "assistant",
           content:
-            content:
             "Olá, tudo bem? Eu sou João. Estou tentando entender melhor os argumentos que as pessoas usam quando decidem se compram DELIGHT, um iogurte."
         }
       ]);
