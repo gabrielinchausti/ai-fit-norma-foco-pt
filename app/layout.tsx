@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "DELIGHT - Estudo",
+  title: "VELO - Estudo",
   description: "Estudo sobre argumentos de consumo e interação com IA",
 };
 

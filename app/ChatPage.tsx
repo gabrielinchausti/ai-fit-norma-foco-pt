@@ -27,7 +27,7 @@ export default function ChatPage() {
         {
           role: "assistant",
           content:
-            "Olá, tudo bem? Eu sou João. Estou tentando entender melhor os argumentos que as pessoas usam quando decidem se compram DELIGHT, um iogurte."
+            "Olá, tudo bem? Eu sou João. Estou tentando entender melhor os argumentos que as pessoas usam quando decidem se compram VELO, um tênis de corrida."
         }
       ]);
     }
@@ -158,11 +158,17 @@ export default function ChatPage() {
             <b>{reminder.reminder_title}</b> {reminder.reminder}
           </p>
 
+          <p style={{ margin: "0 0 8px 0" }}>{reminder.intro}</p>
+
           <ul style={{ margin: "0 0 8px 20px", padding: 0 }}>
             {reminder.bullets.map((b: string, i: number) => (
               <li key={i}>{b}</li>
             ))}
           </ul>
+
+          <p style={{ margin: "0 0 8px 0" }}>
+            <b>{reminder.closing_tagline}</b>
+          </p>
 
           <p style={{ margin: "0 0 8px 0" }}>{reminder.reasoning}</p>
           <p style={{ margin: 0 }}>{reminder.length_rule}</p>

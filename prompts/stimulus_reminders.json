@@ -1,28 +1,32 @@
 {
   "Promoção": {
     "task_title": "Sua tarefa:",
-    "task": "Convencer o assistente de que escolher DELIGHT é uma boa decisão.",
+    "task": "Convencer o assistente de que escolher VELO é uma boa decisão.",
     "reminder_title": "Lembrete:",
-    "reminder": "DELIGHT: Descubra o prazer de se sentir melhor todos os dias.",
+    "reminder": "VELO: Descubra o prazer de correr melhor todos os dias.",
+    "intro": "O novo VELO foi desenvolvido para apoiar sua rotina diária de corrida, combinando desempenho e conforto em uma escolha equilibrada. Uma forma prática de alcançar o melhor da corrida enquanto você aproveita cada quilômetro com mais vitalidade e leveza.",
     "bullets": [
-      "Melhore sua digestão: com probióticos que ajudam a manter o equilíbrio digestivo.",
-      "Aumente sua energia: com carboidratos equilibrados que ajudam a sustentar sua energia ao longo do dia.",
-      "Cuide do seu equilíbrio de peso: uma opção com menos gordura que se encaixa em um estilo de vida saudável."
+      "Melhore seu amortecimento: com espuma responsiva que garante aterrissagens suaves e macias.",
+      "Aumente seu desempenho: com uma placa de propulsão que ajuda a manter seu ritmo durante toda a corrida.",
+      "Eleve seu conforto: com um tecido em malha sem costuras e respirável que se adapta a um estilo de vida ativo."
     ],
+    "closing_tagline": "VELO: Sinta o prazer de seguir em frente.",
     "reasoning": "Você pode utilizar diferentes tipos de argumentos, como aquilo que as pessoas costumam fazer, o que outras pessoas recomendam ou o que você considera pessoalmente importante.",
     "length_rule": "Mantenha suas respostas curtas (2–3 frases)."
   },
 
   "Prevenção": {
     "task_title": "Sua tarefa:",
-    "task": "Convencer o assistente de que escolher DELIGHT é uma boa decisão.",
+    "task": "Convencer o assistente de que escolher VELO é uma boa decisão.",
     "reminder_title": "Lembrete:",
-    "reminder": "DELIGHT: Cuide de você sem abrir mão do sabor.",
+    "reminder": "VELO: Cuide da sua corrida sem abrir mão do conforto.",
+    "intro": "O novo VELO foi desenvolvido para proteger sua rotina diária de corrida, combinando desempenho e conforto em uma escolha equilibrada. Uma forma prática de cuidar de você dia após dia, ajudando a evitar pequenos contratempos que podem afetar sua corrida.",
     "bullets": [
-      "Proteja seu conforto digestivo: com probióticos que ajudam a prevenir desconfortos digestivos.",
-      "Mantenha sua energia ao longo do dia: com carboidratos equilibrados que ajudam a prevenir fadiga e oscilações.",
-      "Ajude a prevenir o ganho de peso: uma opção com menos gordura que contribui para uma gestão saudável do peso."
+      "Evite impactos fortes: com espuma responsiva que ajuda a prevenir impactos e desgaste nas articulações.",
+      "Evite perda de desempenho: com uma placa de propulsão que ajuda a prevenir fadiga e oscilações de ritmo.",
+      "Evite desconforto nos pés: com um tecido em malha sem costuras e respirável que ajuda a prevenir atrito e assaduras."
     ],
+    "closing_tagline": "VELO: Proteção a cada passo da corrida.",
     "reasoning": "Você pode utilizar diferentes tipos de argumentos, como aquilo que as pessoas costumam fazer, o que outras pessoas recomendam ou o que você considera pessoalmente importante.",
     "length_rule": "Mantenha suas respostas curtas (2–3 frases)."
   }
